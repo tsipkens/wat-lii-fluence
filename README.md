@@ -1,7 +1,5 @@
 # Matlab tools for TiRe-LII fluence curves
 
-August 11 / 2020
-
 This constitutes a software package demonstrating the use of the expressions association with work published by [Sipkens and Daun (2017)][1_main]. The included functions evaluate to: (1) compute the transition or reference fluence and temperature for the given material set and (2) evaluate the fluence curve itself, with non-dimensional values or fluences in J/cm<sup>2</sup> and peak temperatures in Kelvin. This code replaces an older version available on [figshare][2].  
 
 ### Demonstration
@@ -79,6 +77,9 @@ Those who use this code directly can also make reference to this repository:
 
 > T. A. Sipkens. Matlab tools for TiRe-LII fluence curves. url: https://github.com/tsipkens/wat-lii-fluence. 
 
+#### Updated
+
+August 11, 2020
 
 
 [1_main]: https://doi.org/10.1364/OE.25.005684
