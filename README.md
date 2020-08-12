@@ -12,7 +12,9 @@ To start, generate a structure containing all of the relevant properties and dis
 prop = get_prop
 ```
 
-The user should see an output structure that contain fields corresponding to quantities like the density and specific heat capacity of the particle material, gas temperature, laser wavelength, Clausius-Clapeyron equation parameters, etc. The full list of parameters and their meaning are provided in the gen_prop function for reference. Further details on the physics are also given in [Sipkens and Daun][1]. Users can manually code these values or generate the default structure, as above, and modify the relevant values. Next, compute the transition fluence and temperature,
+The user should see an output structure that contain fields corresponding to quantities like the density and specific heat capacity of the particle material, gas temperature, laser wavelength, Clausius-Clapeyron equation parameters, etc. The full list of parameters and their meaning are provided in the gen_prop function for reference. Further details on the physics are also given in [Sipkens and Daun][1]. Users can manually code these values or generate the default structure, as above, and modify the relevant values. It is worth noting that most of the properties are scalars. For example, the density takes on a single value, rather than being temperature-dependent. This is necessary for the simplified analysis suggested by this approach. Typically, evaluating temperature dependent properties around 2,500 K is sufficient to achieve reasonable estimates of the transition temperature and fluence. 
+
+Next, compute the transition fluence and temperature,
 
 ```Matlab
 [Tref, Fref] = get_ref(prop)
