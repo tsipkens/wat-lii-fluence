@@ -6,7 +6,7 @@ clear; close all; clc;
 % contains default soot properties
 % will display in window (since semicolon excluded).
 prop = get_prop
-prop.Eml = 0.1;
+
 
 % Get transition fluence and temperature.
 [Tref, Fref] = get_ref(prop)

@@ -1,0 +1,14 @@
+
+{
+    "Tg": 1675,             // gas temperature, K
+    "dp": 33e-9,            // nanoparticle diameter, m
+    "tlp": 8e-9,            // FWHM of the laser pulse, s
+    "Eml": 0.44,            // absorption function @ laser wavelength
+    "l_laser": 1064e-9,     // laser wavelength, m
+    "rho": 1860,            // density, kg/m^3
+    "cp": 1900,             // specific heat capacity, J/(kg*K)
+    "M": "3*0.01201",       // molar mass of the vapor, kg/mol
+    "hvb0": 7.9078e5,       // latent heat of vaporization at boiling point, J/mol
+    "Tb": 3000,             // reference temperature of C-C equation, K
+    "Pb": 61.5000           // reference pressure for C-C equation, Pa
+}
