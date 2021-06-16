@@ -1,0 +1,14 @@
+
+{
+    "Tg": "gas temperature, K"
+    "dp": "nanoparticle diameter, m"
+    "tlp": "FWHM of the laser pulse, s"
+    "Eml": "absorption function @ laser wavelength"
+    "l_laser": "laser wavelength, m"
+    "rho": "density, kg/m^3"
+    "cp": "specific heat capacity, J/(kg*K)"
+    "M": "molar mass of the vapor, kg/mol"
+    "hvb0": "latent heat of vaporization at boiling point, J/mol"
+    "Tb": "reference temperature of C-C equation, K"
+    "Pb": "reference pressure for C-C equation, Pa"
+}
