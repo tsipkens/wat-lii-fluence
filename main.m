@@ -25,8 +25,8 @@ T_vec = T_fun(F0_vec); % predicted peak temperature curve
 figure(1);
 plot(F0_vec, T_vec, 'k', 'LineWidth', 1.2); % plot overall fluence curve
 hold on;
-plot(F0_vec, T_low(F0_vec), '--'); % plot low-fluence regime expression
-plot(F0_vec, T_high(F0_vec), '--'); % plot high-fluence regime expression
+plot(F0_vec, T_low(F0_vec), '-'); % plot low-fluence regime expression
+plot(F0_vec, T_high(F0_vec), '-'); % plot high-fluence regime expression
 hold off;
 
 xlim([0, 3*Fref]); % adjust x limits of the plot based on Fref
