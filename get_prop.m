@@ -23,10 +23,10 @@ function prop = get_prop(fn)
 
 
 if ~exist('fn', 'var'); fn = []; end
-if isempty(fn); fn = 'carbon.json'; end
+if isempty(fn); fn = 'carbon'; end
 
 
-prop = read_json(fn);
+prop = read_json(['data', filesep, fn, '.json']);
 
 
 %-- Vaporization properties ------------------%
